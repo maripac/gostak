@@ -20,7 +20,12 @@
     {% include footer.html %}
 
     <script src="{{ site.baseurl }}/scripts/jquery.min.js"></script>
-
+    
+    <script language="javascript" type="text/javascript">
+      $('#ossm').click(function () {
+        $("body").toggleClass( "grid" );
+      });
+    </script>
     
     <script language="javascript" type="text/javascript">
 

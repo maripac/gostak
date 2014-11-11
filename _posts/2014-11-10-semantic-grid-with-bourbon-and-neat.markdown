@@ -5,6 +5,9 @@ date:   2014-11-10 02:26:00
 categories: Sass Grid
 ---
 
+<input type="checkbox" id="ossm" name="ossm"> 
+<label for="ossm">CSS is Awesome</label>
+
 [Neat](http://neat.bourbon.io/) is a grid framework maintained by the [Thoughtbot](http://thoughtbot.com/) team. It is built on top of [Bourbon](http://bourbon.io/), a library for [Sass](http://sass-lang.com/), maintained also by the people at [Thoughtbot](http://thoughtbot.com/). It can be installed to work with [Compass](http://compass-style.org/) as well, but maybe you need to update your Compass version to 1.0.0 or newer. Previous releases of Compass do not support Sass 3.3 which is needed if you want to install the current version of the Bourbon gem. With that in mind, you might want to check which version is installed in your machine, before installing or updating any ruby gem. Just type `$ compass version` from the command line and the output should contain which version of the Compass gem you are running.  
 
 <dl>

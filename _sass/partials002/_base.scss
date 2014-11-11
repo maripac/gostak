@@ -27,17 +27,42 @@ body{
 		max-width: 100%;
 		content:none;
 	}
-	&:hover .container_ctm{
-		background: url('../images/gridbgtr28.png');
-	}
-	&:hover{
+	&.grid{
 		&:before{
-		width:100%;
-		max-width: 100%;
-		content:'';
+			width:100%;
+			max-width: 100%;
+			content:'';
+
 		}
-	} 
+		.container_ctm{
+			background: url('../images/gridbgtr28.png');
+		}
+	}
+	
+	
+	// &:hover .container_ctm{
+	// 	background: url('../images/gridbgtr28.png');
+	// }
+	
 }
+
+// input[type=checkbox] {
+// 	& + label {
+// 	  color: #ccc;
+// 	  font-style: italic;
+// 	} 
+
+// }
+// input[type=checkbox]{
+// 	&:checked{
+// 		& + label {
+// 		  color: #f00;
+// 		  font-style: normal;
+// 		}
+
+// 	} 
+
+// }
 .site-title{
 		display: inline-block;
 		@include span-columns(3);
