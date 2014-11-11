@@ -4,12 +4,11 @@
   {% include head.html %}
 
   <body>
-
     <div class="container_ctm">
 
       {% include header.html %}
 
-      <div class="page-content">
+      <div class="page-content intro">
         <div class="wrapper">
           {{ content }}
         </div>
@@ -19,23 +18,15 @@
 
     {% include footer.html %}
 
+
+
+
+    
+
     <script src="{{ site.baseurl }}/scripts/jquery.min.js"></script>
 
     
-    <script language="javascript" type="text/javascript">
 
-    $(function() {
-
-      if($('pre').length >0 ){
-        
-        
-        hljs.initHighlightingOnLoad();
-        
-      }
-      
-    });
-
-    </script>
 
   </body>
 

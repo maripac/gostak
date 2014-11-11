@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Installing Ghost on OpenShift: how to synchronize it with a cloned repository that runs locally"
+title:  "Installing Ghost on OpenShift"
 date:   2014-09-29 02:26:00
-categories: ghost
+categories: Ghost OpenShift
+subtitle: " How to sync your Ghost live blog with a cloned repository that runs locally"
 ---
 **Note** *This post is being written with the intention of keeping a personal record of the actions performed in my particular environment, meeting a set of conditions which I'm not sure I'll be able to point out in every case. Including ruby, git and node.js version; operating system and so on. OpenShift provides plenty of documentation regarding these options which I will try to refer, and which I strongly recommend to consult before trying to perform any modification in any other particular environment.* 
  
 ## Installation and configuration of the Client Tools
  
  
- [Installing the Client Tools](https://developers.openshift.com/en/getting-started-client-tools.html)
+[Installing the Client Tools](https://developers.openshift.com/en/getting-started-client-tools.html)
  
- [Extended documentation](https://access.redhat.com/documentation/en-US/OpenShift_Online/2.0/html/Client_Tools_Installation_Guide/index.html)
+[Extended documentation](https://access.redhat.com/documentation/en-US/OpenShift_Online/2.0/html/Client_Tools_Installation_Guide/index.html)
  
- Once we have verified that Ruby and Git are available in our system we can install the OpenShift gem.
- 
+Once we have verified that Ruby and Git are available in our system we can install the OpenShift gem.
 
     $ sudo gem install rhc
 

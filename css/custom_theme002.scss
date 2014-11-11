@@ -1,0 +1,16 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"partials002/normalize",
+      "bourbon/bourbon",
+      "partials002/settings",
+      "base/base",
+      "neat/neat",
+      "partials002/base",
+      "partials002/layout"
+;
